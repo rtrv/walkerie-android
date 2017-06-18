@@ -1,7 +1,8 @@
-package ru.krivonozhko.artem.walkerie
+package ru.krivonozhko.artem.walkerie.ui.activities
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import ru.krivonozhko.artem.walkerie.R
 
 class RouteListActivity : AppCompatActivity() {
 

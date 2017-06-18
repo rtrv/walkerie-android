@@ -7,7 +7,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-alpha3'
+        classpath 'com.android.tools.build:gradle:3.0.0-alpha4'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -20,6 +20,10 @@ allprojects {
         maven { url 'https://maven.google.com' }
         jcenter()
         mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        maven { url "https://mvn.arello-mobile.com/" }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
     }
 }
 
